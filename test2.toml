@@ -240,7 +240,6 @@ group = "🎯 全球直连"
 ruleset = "https://raw.githubusercontent.com/yxmyxmyyy/ACL4SSR/master/myconfig.list"
 
 [[rulesets]]
-
 group = "🛑 广告拦截"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
 
@@ -257,16 +256,15 @@ group = "🎯 全球直连"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
 
 [[rulesets]]
-
 group = "🎯 全球直连"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
 
 [[rulesets]]
-group = "M️ 微软云盘"
+group = "Ⓜ️ 微软云盘"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"
 
 [[rulesets]]
-group = "M️ 微软服务"
+group = "Ⓜ️ 微软服务"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
 
 [[rulesets]]
@@ -275,7 +273,6 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.
 
 [[rulesets]]
 group = "📲 电报消息"
-
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
 
 [[rulesets]]
@@ -291,7 +288,6 @@ group = "🎮 游戏平台"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list"
 
 [[rulesets]]
-
 group = "🎮 游戏平台"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list"
 
@@ -356,7 +352,6 @@ group = "🎯 全球直连"
 ruleset = "[]GEOIP,CN"
 
 [[rulesets]]
-
 group = "🐟 漏网之鱼"
 ruleset = "[]FINAL"
 # 设置规则标志位
