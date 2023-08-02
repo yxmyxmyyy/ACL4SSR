@@ -208,7 +208,7 @@ rule = ["(NF|奈飞|解锁|Netflix|NETFLIX|Media|wiizero)"]
 [[custom_groups]]
 name = "💬 OpenAi节点"
 type = "select"
-rule = ["(wiizero)"]
+rule = ["(wiizero|fk|kb)"]
 
 
 
