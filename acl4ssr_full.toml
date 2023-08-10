@@ -65,7 +65,7 @@ rule = ["[]🚀 节点选择"]
 [[custom_groups]]
 name = "💬 OpenAi"
 type = "select"
-rule = ["[]💬 OpenAi节点"]
+rule = ["[]💬 OpenAi节点","[]🚀 节点选择"]
 
 [[custom_groups]]
 name = "📹 油管视频"
@@ -105,12 +105,12 @@ rule = ["[]DIRECT","[]🚀 节点选择"]
 [[custom_groups]]
 name = "Ⓜ️ 微软云盘"
 type = "select"
-rule = ["[]DIRECT","[]🚀 节点选择"]
+rule = ["[]DIRECT","[]🇯🇵 日本节点","[]🚀 节点选择"]
 
 [[custom_groups]]
 name = "Ⓜ️ 微软服务"
 type = "select"
-rule = ["[]DIRECT","[]🚀 节点选择"]
+rule = ["[]DIRECT","[]🇯🇵 日本节点","[]🚀 节点选择"]
 
 [[custom_groups]]
 name = "🍎 苹果服务"
