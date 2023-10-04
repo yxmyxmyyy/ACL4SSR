@@ -4,3 +4,8 @@ DOMAIN-SUFFIX,imgur.com
 
 # 内容：google ai
 DOMAIN-SUFFIX,bard.google.com
+
+# plex
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,plex.direct
+DOMAIN-SUFFIX,one.yxmnas.eu.org
