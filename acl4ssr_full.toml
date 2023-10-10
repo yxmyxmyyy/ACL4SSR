@@ -239,7 +239,7 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Rulese
 
 
 [[rulesets]]
-group = "🎯 全球直连"
+group = "🚀 节点选择"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list"
 
 [[rulesets]]
