@@ -27,11 +27,9 @@ rule = [
     "[]♻️ 自动选择",
     "[]🔮 负载均衡",
     "[]🇭🇰 香港节点",
-    "[]🇨🇳 台湾节点",
     "[]🇸🇬 狮城节点",
     "[]🇯🇵 日本节点",
     "[]🇺🇲 美国节点",
-    "[]🇰🇷 韩国节点",
     "[]🚀 手动切换",
     "[]DIRECT"
 ]
@@ -53,45 +51,20 @@ tolerance = 50
 name = "🔮 负载均衡"
 type = "load-balance"
 rule = ["(holymc)"]
-interval = 300
 strategy = "round-robin"
-url = "https://www.gstatic.com/generate_204"
 
-[[custom_groups]]
-name = "📲 电报消息"
-type = "select"
-rule = ["[]🚀 节点选择"]
 
 [[custom_groups]]
 name = "💬 OpenAi"
 type = "select"
 rule = ["[]💬 OpenAi节点","[]🚀 节点选择"]
 
-[[custom_groups]]
-name = "📹 油管视频"
-type = "select"
-rule = ["[]🚀 节点选择"]
-
-
-[[custom_groups]]
-name = "📺 巴哈姆特"
-type = "select"
-rule = ["[]🇨🇳 台湾节点"]
 
 [[custom_groups]]
 name = "📺 哔哩哔哩"
 type = "select"
-rule = ["[]🎯 全球直连","[]🇨🇳 台湾节点","[]🇭🇰 香港节点"]
+rule = ["[]🎯 全球直连","[]🇭🇰 香港节点"]
 
-[[custom_groups]]
-name = "🌍 国外媒体"
-type = "select"
-rule = ["[]🚀 节点选择"]
-
-[[custom_groups]]
-name = "🌏 国内媒体"
-type = "select"
-rule = ["[]DIRECT","[]🚀 节点选择"]
 
 [[custom_groups]]
 name = "📢 谷歌FCM"
@@ -118,25 +91,12 @@ name = "🎮 游戏平台"
 type = "select"
 rule = ["[]DIRECT","[]🚀 节点选择"]
 
-[[custom_groups]]
-name = "🎶 网易音乐"
-type = "select"
-rule = ["[]DIRECT","[]🚀 节点选择"]
 
 [[custom_groups]]
 name = "🎯 全球直连"
 type = "select"
 rule = ["[]DIRECT","[]🚀 节点选择"]
 
-[[custom_groups]]
-name = "🆎 AdBlock"
-type = "select"
-rule = ["[]REJECT","[]DIRECT"]
-
-[[custom_groups]]
-name = "🛑 广告拦截"
-type = "select"
-rule = ["[]REJECT","[]DIRECT"]
 
 [[custom_groups]]
 name = "🍃 应用净化"
@@ -172,26 +132,11 @@ url = "https://www.gstatic.com/generate_204"
 interval = 300
 tolerance = 50
 
-[[custom_groups]]
-name = "🇨🇳 台湾节点"
-type = "url-test"
-rule = ["(台|新北|彰化|TW|Taiwan)"]
-url = "https://www.gstatic.com/generate_204"
-interval = 300
-tolerance = 50
 
 [[custom_groups]]
 name = "🇸🇬 狮城节点"
 type = "url-test"
 rule = ["(新加坡|坡|狮城|SG|Singapore)"]
-url = "https://www.gstatic.com/generate_204"
-interval = 300
-tolerance = 50
-
-[[custom_groups]]
-name = "🇰🇷 韩国节点"
-type = "url-test"
-rule = ["(KR|Korea|KOR|首尔|韩|韓)"]
 url = "https://www.gstatic.com/generate_204"
 interval = 300
 tolerance = 50
@@ -257,7 +202,7 @@ group = "🍎 苹果服务"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
 
 [[rulesets]]
-group = "📲 电报消息"
+group = "🚀 节点选择"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
 
 [[rulesets]]
@@ -265,7 +210,7 @@ group = "💬 OpenAi"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
 
 [[rulesets]]
-group = "🎶 网易音乐"
+group = "🎯 全球直连"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
 
 [[rulesets]]
@@ -289,12 +234,12 @@ group = "🎮 游戏平台"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"
 
 [[rulesets]]
-group = "📹 油管视频"
+group = "🚀 节点选择"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
 
 
 [[rulesets]]
-group = "📺 巴哈姆特"
+group = "🎯 全球直连"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list"
 
 [[rulesets]]
@@ -306,11 +251,11 @@ group = "📺 哔哩哔哩"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
 
 [[rulesets]]
-group = "🌏 国内媒体"
+group = "🎯 全球直连"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"
 
 [[rulesets]]
-group = "🌍 国外媒体"
+group = "🚀 节点选择"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
 
 [[rulesets]]
