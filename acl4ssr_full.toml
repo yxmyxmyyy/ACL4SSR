@@ -200,10 +200,6 @@ url = "https://www.gstatic.com/generate_204"
 interval = 300
 tolerance = 50
 
-[[custom_groups]]
-name = "🎥 奈飞节点"
-type = "select"
-rule = ["(NF|奈飞|解锁|Netflix|NETFLIX|Media|wiizero)"]
 
 [[custom_groups]]
 name = "💬 OpenAi节点"
@@ -300,9 +296,6 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Rulese
 group = "📹 油管视频"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
 
-[[rulesets]]
-group = "🎥 奈飞视频"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
 
 [[rulesets]]
 group = "📺 巴哈姆特"
