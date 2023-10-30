@@ -134,13 +134,13 @@ interval = 300
 tolerance = 50
 
 
-[[custom_groups]]
-name = "🇸🇬 狮城节点"
-type = "url-test"
-rule = ["(新加坡|坡|狮城|SG|Singapore)"]
-url = "https://www.gstatic.com/generate_204"
-interval = 300
-tolerance = 50
+# [[custom_groups]]
+# name = "🇸🇬 狮城节点"
+# type = "url-test"
+# rule = ["(新加坡|坡|狮城|SG|Singapore)"]
+# url = "https://www.gstatic.com/generate_204"
+# interval = 300
+# tolerance = 50
 
 
 [[custom_groups]]
