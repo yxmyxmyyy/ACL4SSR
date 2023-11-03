@@ -162,6 +162,10 @@ ruleset = "https://raw.githubusercontent.com/yxmyxmyyy/ACL4SSR/master/myconfig.l
 group = "📷 imgur图片"
 ruleset = "https://raw.githubusercontent.com/yxmyxmyyy/ACL4SSR/master/imgur.list"
 
+[[rulesets]]
+group = "🚀 节点选择"
+ruleset = "https://raw.githubusercontent.com/yxmyxmyyy/ACL4SSR/master/proxy.list"
+
 # ACL4SSR
 [[rulesets]]
 group = "🎯 全球直连"
