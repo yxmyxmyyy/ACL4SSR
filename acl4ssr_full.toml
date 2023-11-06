@@ -28,6 +28,7 @@ rule = [
     "[]🇭🇰 香港节点",
     "[]🇯🇵 日本节点",
     "[]🇺🇲 美国节点",
+    "[]tw 台湾节点",
     "[]🚀 手动切换",
     "[]DIRECT"
 ]
@@ -62,7 +63,7 @@ rule = ["[]💬 OpenAi节点","[]🚀 节点选择"]
 [[custom_groups]]
 name = "📺 哔哩哔哩"
 type = "select"
-rule = ["[]🎯 全球直连","[]🇭🇰 香港节点"]
+rule = ["[]🎯 全球直连","[]🇭🇰 香港节点","[]tw 台湾节点"]
 
 
 [[custom_groups]]
@@ -127,6 +128,14 @@ tolerance = 50
 name = "🇺🇲 美国节点"
 type = "url-test"
 rule = ["(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"]
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+tolerance = 50
+
+[[custom_groups]]
+name = "tw 台湾节点"
+type = "url-test"
+rule = ["(meta_tuic|meta_hysteria|hysteria|reality)"]
 url = "https://www.gstatic.com/generate_204"
 interval = 300
 tolerance = 50
