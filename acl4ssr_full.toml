@@ -63,7 +63,7 @@ rule = ["[]💬 OpenAi节点","[]🚀 节点选择"]
 [[custom_groups]]
 name = "📺 哔哩哔哩"
 type = "select"
-rule = ["[]🎯 全球直连","[]🇭🇰 香港节点","[]tw 台湾节点"]
+rule = ["[]🎯 全球直连","[]🇭🇰 香港节点","[]cn 台湾节点"]
 
 
 [[custom_groups]]
