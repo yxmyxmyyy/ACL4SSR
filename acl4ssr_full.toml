@@ -135,7 +135,7 @@ tolerance = 50
 [[custom_groups]]
 name = "cn 台湾节点"
 type = "url-test"
-rule = ["(meta_tuic|meta_hysteria|hysteria|reality)"]
+rule = ["(meta_tuic|meta_hysteria|hysteria|reality|台湾)"]
 url = "https://www.gstatic.com/generate_204"
 interval = 300
 tolerance = 50
