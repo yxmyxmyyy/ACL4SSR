@@ -28,7 +28,7 @@ rule = [
     "[]🇭🇰 香港节点",
     "[]🇯🇵 日本节点",
     "[]🇺🇲 美国节点",
-    "[]tw 台湾节点",
+    "[]cn 台湾节点",
     "[]🚀 手动切换",
     "[]DIRECT"
 ]
@@ -133,7 +133,7 @@ interval = 300
 tolerance = 50
 
 [[custom_groups]]
-name = "tw 台湾节点"
+name = "cn 台湾节点"
 type = "url-test"
 rule = ["(meta_tuic|meta_hysteria|hysteria|reality)"]
 url = "https://www.gstatic.com/generate_204"
